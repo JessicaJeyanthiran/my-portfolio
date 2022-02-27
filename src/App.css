@@ -9,12 +9,20 @@
     background-color: lightsalmon;
     position: relative;
     top: 70px;
-    
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
+  
 }
+
+.sections::-webkit-scrollbar {
+    display: none;
+}
+  
 
 div.sections> * {
     width: 100vw;
     height: calc(100vh - 70px);
+    scroll-snap-align: start;
 }
 
 
