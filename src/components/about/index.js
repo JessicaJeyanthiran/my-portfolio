@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css'
-import headshot from '../../assets/headshot.jpg';
+import headshot from '../../assets/headshot2.png';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
     <div className='about' id='about'>
      <div className='left'>
        <div className='imgContainer'>
-         <img src={require('../../assets/headshot1.png')} alt=''/>
+         <img src={require('../../assets/headshot2.png')} alt=''/>
        </div>
      </div>
      <div className='right'>
