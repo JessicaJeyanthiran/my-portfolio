@@ -22,17 +22,21 @@
 }
 
 .left .logo {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     text-decoration: none;
     color: inherit;
     margin-right: 40px;
+    /* background-color: limegreen;
+    padding: 10px;
+    border-radius: 50%; */
+    opacity: 75%;
 }
 
 .itemContainer{
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .icon {

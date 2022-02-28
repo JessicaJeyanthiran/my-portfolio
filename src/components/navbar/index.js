@@ -2,6 +2,8 @@ import React from 'react';
 import './navbar.css'
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -16,6 +18,12 @@ function Navbar({ menuOpen, setMenuOpen }) {
                 <div className='itemContainer'>
                     <MailOutlineIcon className='icon'/>
                     <span>jeyanthiran.jessica@gmail.com</span>
+                </div>
+                <div className='itemContainer'>
+                    <a href='https://github.com/JessicaJeyanthiran' target='_blank'><GitHubIcon className='icon'/></a>
+                </div>
+                <div className='itemContainer'>
+                    <a href='https://www.linkedin.com/in/jessicajeyanthiran/' target='_blank'><LinkedInIcon className='icon'/></a>
                 </div>
             </div>
             
