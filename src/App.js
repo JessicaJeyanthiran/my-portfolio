@@ -4,8 +4,7 @@ import About from './components/about';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Menu from "./components/menu";
-
-import "./app.css"
+import "./App.css"
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
