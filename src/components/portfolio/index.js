@@ -3,7 +3,7 @@ import './portfolio.css'
 
 function Portfolio() {
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id='portfolio'>
 
     </div>
   )
