@@ -8,6 +8,11 @@
     z-index: 2;
 }
 
+/* .navbar .active  {
+    background-color: white;
+    color: #15023a;
+} */
+
 .left {
     display: flex;
     align-items: center;
@@ -42,4 +47,19 @@
 .itemContainer span {
     font-size: 15px;
     font-weight: 500px;
+}
+
+.right .hamburger {
+    width: 32px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.right span {
+    width: 100%;
+    height: 3px;
+    background-color: white;
 }
