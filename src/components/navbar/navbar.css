@@ -8,10 +8,6 @@
     z-index: 2;
 }
 
-/* .navbar .active  {
-    background-color: white;
-    color: #15023a;
-} */
 
 .left {
     display: flex;
@@ -56,6 +52,7 @@
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    margin-left: 570px;
 }
 
 .right span {
