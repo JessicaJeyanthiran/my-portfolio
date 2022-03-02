@@ -81,6 +81,27 @@ button {
     transition: transform 0.3s ease;
 }
 
+/* .span {
+    position: absolute;
+    background: #fff;
+    transform: translate(-10%, -10%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+} */
+
+@keyframes animate {
+    0%
+    {
+        width: 0px;
+        height: 0px;
+    }
+    100% {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 
 
 
