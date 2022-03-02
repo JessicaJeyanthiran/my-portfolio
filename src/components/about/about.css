@@ -48,12 +48,15 @@
     justify-content: center;
     float: right;
     margin-left: 150px;
+    border: 5px solid whitesmoke;
+
     
    
 }
 
 img {
     height: 100%;
+    
 }
 
 
@@ -81,15 +84,7 @@ img {
     transition: transform 0.3s ease;
 }
 
-/* .span {
-    position: absolute;
-    background: #fff;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    border-radius: 50%;
-    animation: animate 1s linear infinite;
-    z-index: 1;
-}  */
+
 
 @keyframes animate {
     0%

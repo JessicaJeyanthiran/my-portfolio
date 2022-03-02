@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './contact.css'
 import contact from "../../assets/contactme.jpg"
 import emailjs from '@emailjs/browser';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 function Contact() {
 
@@ -33,18 +34,21 @@ setTimeout(() => {
 
   return (
     <div className='contact' id='contact'>
-      <div className='left'>
+      <a href="#about">
+        <KeyboardArrowUpIcon className='arrowUp'/>
+        </a>
+        
+        
         <h2> Contact Me.</h2>
+        
+
         <form onSubmit={handleSubmit, sendEmail}>
           <input type="text" placeholder="Email" name='email'></input>
           <textarea placeholder='Message' name='message'></textarea>
           <button type='submit'>Send</button>
           {message && <span> Thanks! I'll reply ASAP</span>}
         </form>
-      </div>
-      <div className='right'>
-        
-      </div>
+    
 
     </div>
   )

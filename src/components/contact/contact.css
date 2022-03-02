@@ -5,7 +5,7 @@
     
 }
 
-.contact .left {
+.contact  {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -13,13 +13,13 @@
     justify-content: center;
 }
 
-.contact .left h2 {
+.contact  h2 {
     font-size: 30px;
     color: white;
 
 }
 
-.contact .left form {
+.contact  form {
     width: 70%;
     height: 70%;
     display: flex;
@@ -55,4 +55,15 @@
 
 .contact span {
     background-color: greenyellow;
+}
+
+.arrowUp {
+    /* position:fixed; */
+    padding-bottom: 20px;
+    color: white;
+    animation: arrowBlink 2s infinite;
+    z-index: 1;
+    /* flex-direction: row;
+    align-items:flex-end;
+    justify-content: center; */
 }
