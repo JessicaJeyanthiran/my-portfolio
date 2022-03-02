@@ -1,22 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './portfolio.css'
 import project1 from '../../assets/runbuddy.png';
 import project2 from '../../assets/taskinator.png';
 import project3 from '../../assets/CovidNow.png';
 import project4 from '../../assets/ohsnap.png';
 import project5 from '../../assets/codingflashcards.jpg';
-
+import Modal1 from '../modalprojects';
 
 
 function Portfolio() {
+
+  const[openModal, setOpenModal] = useState(false);
+
   return (
     <div className='portfolio' id='portfolio'>
       <h1>Portfolio</h1>
       <div className='container'>
+      
       <div className='item'>
-            <a href='https://jessicajeyanthiran.github.io/RunBuddy/'><img src={require("../../assets/runbuddy.png")} alt="project1"/></a>
-            <h3>Run Buddy</h3>
-        </div>
+        {openModal && <Modal1 closeModal={setOpenModal}/>}
+        <h3>Run Buddy</h3>
+        <button className='openModalBtn' onClick={() => {
+            setOpenModal(true);
+            }}>               
+              <img src={require("../../assets/runbuddy.png")} alt="project1"/>
+        </button>
+
+      </div>
+
+
+
         <div className='item'>
             <a href='https://jessicajeyanthiran.github.io/taskinator/'><img src={require("../../assets/taskinator.png")} alt="project2"/></a>
             <h3>Taskinator</h3>
