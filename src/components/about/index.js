@@ -18,7 +18,7 @@ function About() {
           <h1>Jessica Jeyanthiran</h1>
           <h3>Full Stack Web Developer</h3>
         </div>
-        <button className='button1'>Learn More!</button><a href={Resume} download><button className='button2'>Download Resume</button></a>
+        <button className='button1'>Learn More!</button><a href={Resume} download><button className='button2 p'>Download Resume</button></a>
 
          <a href="#portfolio">
          <KeyboardArrowDownIcon className='arrow'/>
