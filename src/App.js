@@ -5,6 +5,7 @@ import Portfolio from './components/portfolio';
 import Contact from './components/contact';
 import Menu from "./components/menu";
 import "./App.css"
+import Skills from './components/skills';
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
@@ -15,6 +16,7 @@ function App() {
       
       <div className="sections">
         <About />
+        <Skills />
         <Portfolio />
         <Contact />
       </div>
