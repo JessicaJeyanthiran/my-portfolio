@@ -3,7 +3,9 @@ import './portfolio.css'
 import project1 from '../../assets/runbuddy.png';
 import project2 from '../../assets/taskinator.png';
 import project3 from '../../assets/CovidNow.png';
-import project4 from '../../assets/codingflashcards.jpg';
+import project4 from '../../assets/ohsnap.png';
+import project5 from '../../assets/codingflashcards.jpg';
+
 
 
 function Portfolio() {
@@ -12,16 +14,20 @@ function Portfolio() {
       <h1>Portfolio</h1>
       <div className='container'>
       <div className='item'>
-            <a href="https://deepikabekal.github.io/covid-now-version2/"><img src={require("../../assets/runbuddy.png")} alt="project1"/></a>
+            <a href='https://jessicajeyanthiran.github.io/RunBuddy/'><img src={require("../../assets/runbuddy.png")} alt="project1"/></a>
             <h3>Run Buddy</h3>
         </div>
         <div className='item'>
-            <a href="https://deepikabekal.github.io/covid-now-version2/"><img src={require("../../assets/taskinator.png")} alt="project2"/></a>
+            <a href='https://jessicajeyanthiran.github.io/taskinator/'><img src={require("../../assets/taskinator.png")} alt="project2"/></a>
             <h3>Taskinator</h3>
         </div>
         <div className='item'>
             <a href="https://deepikabekal.github.io/covid-now-version2/"><img src={require("../../assets/CovidNow.png")} alt="project3"/></a>
             <h3>Covid Tracker</h3>
+        </div>
+        <div className='item'>
+            <a href='https://jessicajeyanthiran.github.io/oh-snap/'><img src={require("../../assets/ohsnap.png")} alt="project4"/></a>
+            <h3>Oh Snap</h3>
         </div>
         <div className="item">
             <a href="https://github.com/jadejhagru/coding-flashcards.git"><img src={require("../../assets/codingflashcards.jpg")} alt="project4"/></a>
