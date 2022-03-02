@@ -23,6 +23,10 @@ function Portfolio() {
             <a href="https://deepikabekal.github.io/covid-now-version2/"><img src={require("../../assets/CovidNow.png")} alt="project3"/></a>
             <h3>Covid Tracker</h3>
         </div>
+        <div className='item'>
+            <a href="https://deepikabekal.github.io/covid-now-version2/"><img src={require("../../assets/CovidNow.png")} alt="project3"/></a>
+            <h3>Covid Tracker</h3>
+        </div>
         <div className="item">
             <a href="https://github.com/jadejhagru/coding-flashcards.git"><img src={require("../../assets/codingflashcards.jpg")} alt="project4"/></a>
             <h3>Coding Flashcards</h3>
