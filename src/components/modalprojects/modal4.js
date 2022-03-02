@@ -9,10 +9,15 @@ function Modal4({closeModal}) {
                 <button onClick={() => closeModal(false)}>X</button>
             </div>
             <h1> OH SNAP </h1>
-            <p>I am a full-stack web developer with a recently earned certificate received from the University of Toronto. This coding bootcamp has equipped me with newly developed front end skills in HTML, CSS, Javascript, React.js, and responsive web development, as well as back end technologies such as Node, js, Express.js, MongoDB, MySQL.
-            https://github.com/jadejhagru/coding-flashcards.git
-            My background in Health Administration has allowed me to recognize my ambition to grow in knowledge, and the world of web development has certainly fulfilled that. I am a student by nature, and I am known for my desire to triage and trouble-shoot problems in both the clinic and in code. I worked on an agile team of four to develop a single-page MERN bidding web application. My goal is to bring awe to every user experience and share my passion with a team.</p>
+            <p>OH SNAP is a SPA that uses React state, props, hooks, and reusable UI components to provide a simple, yet sleek platform to show of the client's photography skills</p>
+            <h2>Technologies:</h2>
+            
+                <p>React.JS</p>
+                
 
+              
+            <a href='https://github.com/JessicaJeyanthiran/oh-snap.git' target="_blank"><h4>GitHub Repo Here</h4></a>
+            <a href='https://jessicajeyanthiran.github.io/oh-snap/' target="_blank"><h4> Deployed Website</h4></a>
         </div> 
     </div>
   )

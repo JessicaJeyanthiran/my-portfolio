@@ -48,14 +48,41 @@
   }
   
   .modalContainer p {
-    flex: 50%;
+    /* flex: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    margin: 0px 5px 3px 5px;
+  }
+
+  .modalContainer h4 {
+    flex: 25%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     font-size: 18px;
     text-align: center;
-    color: black;
+    color: #5b12ec;
+    text-decoration: underline;
+    margin: 3px 0;
   }
+
+  
+
+  .modalContainer h2, li {
+    color: black;
+    font-size: 18px;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: flex-start; */
+    text-align: center;
+
+  }
+
+
   
 
   

@@ -9,9 +9,15 @@ function Modal1({closeModal}) {
                 <button onClick={() => closeModal(false)}>X</button>
             </div>
             <h1> RUN BUDDY </h1>
-            <p>I am a full-stack web developer with a recently earned certificate received from the University of Toronto. This coding bootcamp has equipped me with newly developed front end skills in HTML, CSS, Javascript, React.js, and responsive web development, as well as back end technologies such as Node, js, Express.js, MongoDB, MySQL.
+            <p>A professional mobile-friendly website that offers fitness training services for Run Buddy Inc.</p>
+            <h2>Technologies:</h2>
+            
+                <p>HTML</p>
+                <p>CSS</p>
+              
+            <a href='https://github.com/JessicaJeyanthiran/RunBuddy.git' target="_blank"><h4>GitHub Repo Here</h4></a>
+            <a href='https://jessicajeyanthiran.github.io/RunBuddy/' target="_blank"><h4> Deployed Website</h4></a>
 
-            My background in Health Administration has allowed me to recognize my ambition to grow in knowledge, and the world of web development has certainly fulfilled that. I am a student by nature, and I am known for my desire to triage and trouble-shoot problems in both the clinic and in code. I worked on an agile team of four to develop a single-page MERN bidding web application. My goal is to bring awe to every user experience and share my passion with a team.</p>
 
         </div> 
     </div>
