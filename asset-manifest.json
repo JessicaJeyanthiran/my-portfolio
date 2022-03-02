@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JessicaJeyanthiran/my-portfolio.git/static/css/main.4b6374f7.css",
+    "main.js": "/JessicaJeyanthiran/my-portfolio.git/static/js/main.560e56d4.js",
+    "static/media/contactme.jpg": "/JessicaJeyanthiran/my-portfolio.git/static/media/contactme.b9eea7379c785ab4263c.jpg",
+    "static/media/ohsnap.png": "/JessicaJeyanthiran/my-portfolio.git/static/media/ohsnap.fb5199a4a7f645ff1095.png",
+    "static/media/headshot2.png": "/JessicaJeyanthiran/my-portfolio.git/static/media/headshot2.1318eb5ac6b93c3d7e53.png",
+    "static/media/runbuddy.png": "/JessicaJeyanthiran/my-portfolio.git/static/media/runbuddy.6ed5aec5893129e29f8c.png",
+    "static/media/codingflashcards.jpg": "/JessicaJeyanthiran/my-portfolio.git/static/media/codingflashcards.c954fb3eb1fb8d319b4b.jpg",
+    "static/media/JessicaJeyanthiranFullStackResume.pdf": "/JessicaJeyanthiran/my-portfolio.git/static/media/JessicaJeyanthiranFullStackResume.2a279467973b543997c5.pdf",
+    "static/media/taskinator.png": "/JessicaJeyanthiran/my-portfolio.git/static/media/taskinator.638ff1cfc120593ab28c.png",
+    "static/media/CovidNow.png": "/JessicaJeyanthiran/my-portfolio.git/static/media/CovidNow.48f654673a33c996343d.png",
+    "static/media/JJ.png": "/JessicaJeyanthiran/my-portfolio.git/static/media/JJ.67d18c0cfba49b450d95.png",
+    "index.html": "/JessicaJeyanthiran/my-portfolio.git/index.html",
+    "main.4b6374f7.css.map": "/JessicaJeyanthiran/my-portfolio.git/static/css/main.4b6374f7.css.map",
+    "main.560e56d4.js.map": "/JessicaJeyanthiran/my-portfolio.git/static/js/main.560e56d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b6374f7.css",
+    "static/js/main.560e56d4.js"
+  ]
+}
