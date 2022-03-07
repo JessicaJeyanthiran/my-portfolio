@@ -66,19 +66,20 @@
 
 
 
-/* 
-.portfolio .container img{
-    flex-wrap: wrap;
-    width: 220px;
-    height: 150px;
-    border-radius: 20px;
-    border: 1px solid rgb(240, 239, 239);
-    margin: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    position: relative;
-    transition: all .5s ease;
-    cursor: pointer;
-} */
+@media all and (max-width: 750px)
+{ 
+    .portfolio h1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .item {
+        width: 250px;
+        height: 150px;
+        margin-right: 20px;
+    }
+} 

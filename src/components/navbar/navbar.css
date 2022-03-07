@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: all 1s ease;
 }
 
 
@@ -26,12 +27,7 @@
     height: 50px;
     text-decoration: none;
     padding-right: 30px;
-    /* color: inherit; */
     margin-right: 30px;
-    /* background-color: limegreen;
-    padding: 10px;
-    border-radius: 50%; */
-    /* opacity: 75%; */
     overflow: hidden;
 }
 
@@ -66,3 +62,13 @@
     height: 3px;
     background-color: white;
 }
+
+@media all and (max-width: 750px)
+{ 
+    .itemContainer {
+        display: none;
+    }
+    .right .hamburger {
+        display: none;
+    }
+} 
