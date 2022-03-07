@@ -106,17 +106,11 @@ img {
 }
 
 @media all and (max-width: 1250px)
-{
-    
-
-    
-
+{ 
     .right .wrapper {
         margin-left: 20px;
     }
-
   
-    
     .about button {
         margin-left: 20px;
     }
