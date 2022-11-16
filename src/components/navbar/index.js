@@ -1,5 +1,5 @@
 import React from 'react';
-import './navbar.css'
+// import './navbar.css'
 // import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 // import MailOutlineIcon from '@mui/icons-material/MailOutline';
 // import GitHubIcon from '@mui/icons-material/GitHub';
@@ -10,7 +10,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 function Navbar({ menuOpen, setMenuOpen }) {
   return (
     <nav className=' bg-violet-600 py-10 mb-12 flex justify-between'>
-        <h1 className=' font-burtons text-2xl'>jessicajeyanthiran</h1>
+        <h1 className=' font-burtons text-3xl'>jj</h1>
         <ul className='flex items-center'>
             <li>
                 <BsFillMoonStarsFill/>
