@@ -1,4 +1,8 @@
-.app{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .app{
     height: 100vh;    
    
 }
@@ -24,8 +28,13 @@ div.sections> * {
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
-}
+} */
 
+
+@font-face {
+    font-family: "Burtons";
+    src: url("../public/Burtons.otf");
+}
 
 
 

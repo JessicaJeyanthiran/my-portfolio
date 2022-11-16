@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     width: 100%;
     height: 70px;
     background-color: #15023a;
@@ -55,12 +55,12 @@
     justify-content: space-between;
     cursor: pointer;
     margin-left: 570px;
-}
+} */
 
-.right span {
+/* .right span {
     width: 100%;
     height: 3px;
-    background-color: white;
+    background-color: violet;
 }
 
 @media all and (max-width: 750px)
@@ -71,4 +71,5 @@
     .right .hamburger {
         display: none;
     }
-} 
+}  */
+
