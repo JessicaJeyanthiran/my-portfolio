@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Navbar from '../navbar';
 // import './about.css'
 import headshot from '../../assets/headshot2.png';
 import Resume from '../../assets/JessicaJeyanthiranFullStackResume.pdf';
@@ -13,31 +14,29 @@ import {
 } from "react-icons/ai";
 
 function About() {
-
+  const [darkMode, setDarkMode] = useState(false);
   // const[openModal, setOpenModal] = useState(false);
+ 
 
   return (
-    <div>
+    <div className='bg-[#fafafa] dark:bg-gray-900 dark:text-white'>
       {/* {openModal && <Modal closeModal={setOpenModal}/>} */}
 
-     {/* <div className='left'>
-       <div className='imgContainer'>
-         <img src={require('../../assets/headshot2.png')} alt=''/>
-       </div>
-     </div> */}
+
     
         <div className='text-center p-5'>
 
         
 
-          <h2 className="text-4xl py-4 text-slate-600 font-medium font-burtons" >Jessica Jeyanthiran</h2>
+          <h2 className="text-4xl py-4 text-slate-600 dark:text-white font-medium font-burtons" >Jessica Jeyanthiran</h2>
           <h3 className='text-xl py-2'>Full Stack Web Developer.</h3>
-          <p className="text-sm py-3 leading-8 text-slate-800">I am a full-stack web developer with a certificate earned from the University of Toronto. Equipped with front end skills in HTML, CSS, Javascript, React.js, and responsive web development, as well as back end technologies such as Node. js, Express.js, MongoDB, MySQL.</p>
+          <p className="text-sm py-3 leading-8 text-slate-800 dark:text-white">I am a full-stack web developer with a certificate earned from the University of Toronto. Equipped with front end skills in HTML, CSS, Javascript, React.js, and responsive web development, as well as back end technologies such as Node. js, Express.js, MongoDB, MySQL.</p>
         </div>
-        <div className="text-3xl flex justify-center gap-16 py-2 text-slate-600 drop-shadow-lg">
-          <AiFillLinkedin/>
-          <AiFillGithub/>
-          <AiFillMail/>
+        <div className="text-3xl flex justify-center gap-16 py-2 text-slate-500 drop-shadow-lg">
+          <a href='https://github.com/JessicaJeyanthiran' className='cursor-pointer' target='_blank'><AiFillGithub/></a>
+          <a href='https://www.linkedin.com/in/jessicajeyanthiran/' className='cursor-pointer' target='_blank'><AiFillLinkedin/></a>
+
+          <AiFillMail onClick={() => setDarkMode(!darkMode)}/>
         </div>
 
         <div className="flex justify-center"> 

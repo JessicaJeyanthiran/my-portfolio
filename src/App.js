@@ -7,12 +7,16 @@ import Contact from './components/contact';
 import "./App.css"
 // import Skills from './components/skills';
 
+
 function App() {
   // const [menuOpen,setMenuOpen] = useState(false)
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div className="app">
-      <Navbar/>
+    <div className={darkMode ? "dark" : ""}>
       
+      <Navbar />
+
       <div className="sections">
         <About />
 

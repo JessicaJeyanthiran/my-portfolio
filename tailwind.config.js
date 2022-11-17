@@ -2,11 +2,13 @@ const { keyframes } = require('@emotion/react');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
+      
       fontFamily: {
         burtons: "burtons",
       },
@@ -31,6 +33,7 @@ module.exports = {
       animation: {
         blob: "blob 7s infinite"
       },
+      
     },
   },
   plugins: [],

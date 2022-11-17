@@ -41,13 +41,13 @@ setTimeout(() => {
         
         <h2> Contact Me.</h2>
         
-
+{/* 
         <form onSubmit={handleSubmit, sendEmail}>
           <input type="text" placeholder="Email" name='email'></input>
           <textarea placeholder='Message' name='message'></textarea>
           <button type='submit'>Send</button>
           {message && <span> Thanks! I'll reply ASAP</span>}
-        </form>
+        </form> */}
     
 
     </div>

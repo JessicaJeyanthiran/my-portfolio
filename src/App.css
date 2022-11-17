@@ -11,6 +11,12 @@
     }
 }
 
+.box {
+    box-shadow: 18px 18px 36px #8c8c8c,
+                 -18px -18px 36px #ffffff
+ }
+ 
+
 .app{
     height: 100vh;    
    
