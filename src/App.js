@@ -8,11 +8,10 @@ import "./App.css"
 // import Skills from './components/skills';
 
 function App() {
-  const [menuOpen,setMenuOpen] = useState(false)
+  // const [menuOpen,setMenuOpen] = useState(false)
   return (
     <div className="app">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>  
-      {/* <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/> */}
+      <Navbar/>
       
       <div className="sections">
         <About />
