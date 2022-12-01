@@ -7,14 +7,14 @@ function Navbar() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-    <nav className=' h-14 bg-[#fafafa] dark:bg-slate-900 dark:text-white drop-shadow-lg flex justify-between items-center px-4'>
+    <nav className=' h-16 bg-[#fafafa] dark:bg-slate-900 dark:text-white drop-shadow-lg flex justify-between items-center px-4'>
         <h1 className=' font-burtons text-xl'>JJ</h1>
         <ul className='flex items-center'>
           <li>
             <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-xl" /> 
           </li>
           <li>
-            <button className="bg-[#fafafa] text-slate-900 px-4 py-2 border-black rounded-md ml-8 drop-shadow-md">
+            <button className="bg-[#fafafa] px-4 py-2 border-blue-500 border-2 text-blue-500 rounded-md ml-8 drop-shadow-md">
               <a  href="#">
               Resume
               </a>
