@@ -11,6 +11,36 @@
     }
 }
 
+:root {
+    --white: #fafafa;
+    --grey: rgb(15 23 42);
+}
+nav {
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: background 2s ease-in-out, color 2s ease-in-out;
+}
+
+
+body {
+background: var(--background-color);
+color: var(--text-color);
+transition: background 2s ease-in-out, color 2s ease-in-out;
+
+}
+
+body.light {
+    --background-color: var(--white);
+    --text-color: var(--grey);
+}
+
+body.dark {
+    --background-color: var(--grey);
+    --text-color: var(--white);
+}
+
+
+
 .box {
     box-shadow: 18px 18px 36px #8c8c8c,
                  -18px -18px 36px #ffffff
@@ -34,6 +64,7 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; 
+
   
 }
 
