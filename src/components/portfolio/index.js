@@ -21,7 +21,7 @@ function Portfolio() {
         <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
       </div>
       <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-        <div className="basis-1/4 flex-1">
+        <div className="basis-1/4 flex-1 ">
           <img src={project1} className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}

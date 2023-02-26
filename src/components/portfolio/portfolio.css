@@ -62,24 +62,3 @@
     z-index: -1;
     
 }
-
-
-
-
-/* @media all and (max-width: 750px)
-{ 
-    .portfolio h1 {
-        font-size: 30px;
-        padding-bottom: 30px;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-    .item {
-        width: 250px;
-        height: 150px;
-        margin-right: 20px;
-    }
-}  */
