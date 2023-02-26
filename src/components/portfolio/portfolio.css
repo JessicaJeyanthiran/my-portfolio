@@ -45,7 +45,7 @@
     align-items: inherit;
     font-size: 20px;
     text-shadow: 1.5px 1.5px black;
-    /* z-index: -1; */
+    z-index: -1;
 
 }
 
@@ -62,24 +62,3 @@
     z-index: -1;
     
 }
-
-
-
-
-@media all and (max-width: 750px)
-{ 
-    .portfolio h1 {
-        font-size: 30px;
-        padding-bottom: 30px;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-    .item {
-        width: 250px;
-        height: 150px;
-        margin-right: 20px;
-    }
-} 

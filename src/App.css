@@ -1,17 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
+}
+
+:root {
+    --white: #fafafa;
+    --grey: rgb(15 23 42);
+}
+nav {
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: background 2s ease-in-out, color 2s ease-in-out;
+}
+
+
+body {
+background: var(--background-color);
+color: var(--text-color);
+transition: background 2s ease-in-out, color 2s ease-in-out;
+
+}
+
+body.light {
+    --background-color: var(--white);
+    --text-color: var(--grey);
+}
+
+body.dark {
+    --background-color: var(--grey);
+    --text-color: var(--white);
+}
+
+
+
+.box {
+    box-shadow: 18px 18px 36px #8c8c8c,
+                 -18px -18px 36px #ffffff
+ }
+ 
+
 .app{
     height: 100vh;    
    
 }
 
+.app::-webkit-scrollbar {
+    display: none;
+}
+
 .sections {
     width: 100%;
-    height: calc(100vh - 70px);
-    background-color: white;
+    height: calc(100vh - 40px);
+    /* background-color: white; */
     position: relative;
-    top: 70px;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; 
+
   
 }
 
@@ -22,10 +75,15 @@
 
 div.sections> * {
     width: 100vw;
-    height: calc(100vh - 70px);
+    /* height: calc(100vh - 70px); */
     scroll-snap-align: start;
 }
 
+
+@font-face {
+    font-family: "Burtons";
+    src: url("../public/Burtons.otf");
+}
 
 
 
